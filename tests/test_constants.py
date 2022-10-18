@@ -1,5 +1,5 @@
 import numpy as np
-import pytest
+# import pytest
 
 from simple_functions.constants import pi
 

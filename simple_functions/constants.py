@@ -1,6 +1,6 @@
 from numpy import sqrt
 from simple_functions.functions1 import factorial
-from functools import lru_cache
+# from functools import lru_cache
 from functools import cache
 
 __all__ = ['pi']
@@ -8,6 +8,7 @@ __all__ = ['pi']
 
 def pi(terms=1):
     return 1./(2.*sqrt(2.)/9801.*rsum(terms))
+
 
 @cache
 def rsum(n):
